@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "userprofile-spfx-client-side-solution",
+    "id": "c1acb59c-81e9-4bf7-bbc2-6a86d29c8c91",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "userprofile-spfx description"
+      },
+      "longDescription": {
+        "default": "userprofile-spfx description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "userprofile-spfx Feature",
+        "description": "The feature that activates elements of the userprofile-spfx solution.",
+        "id": "2ae18291-0e69-4f9e-aaac-afa8868b65a1",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/userprofile-spfx.sppkg"
+  }
+}
